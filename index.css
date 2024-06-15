@@ -130,7 +130,7 @@ nav {
   font-weight: bold;
 }
 .build_section .backed {
-  background-image: url(/images/met.webp);
+  background-image: url(images/met.webp);
   background-size: cover;
   background-position: -199px -250px;
   background-clip: text;
@@ -500,7 +500,7 @@ form button {
   padding: 40px;
 }
 .chris div {
-  background-image: url(/images/met.webp);
+  background-image: url(images/met.webp);
   background-size: cover;
   background-position: -199px -250px;
   background-clip: text;

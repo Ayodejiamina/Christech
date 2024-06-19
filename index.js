@@ -5,6 +5,8 @@ const tab1 = document.querySelector('#first');
 const tab2 = document.querySelector('#second');
 const tab3 = document.querySelector('#third');
 const demo = document.querySelector('.demo');
+const bars = document.querySelector('.bars');
+const link = document.querySelector('.link');
 
 showTab1.addEventListener('click', () => {
     tab1.classList.remove('hidden')
@@ -29,3 +31,12 @@ showTab3.addEventListener('click', () => {
 
 
 })
+bars.addEventListener('click', () => {
+    if (link.style.display === 'block') {
+        link.style.display = 'none';
+    } else {
+        link.style.display = 'block';
+        link.style.width = '100%'
+        link.style.backgroundColor = ' black'
+    }
+}); i

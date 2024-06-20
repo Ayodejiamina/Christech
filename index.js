@@ -32,11 +32,13 @@ showTab3.addEventListener('click', () => {
 
 })
 bars.addEventListener('click', () => {
-    if (link.style.display === 'block') {
-        link.style.display = 'none';
+    if (link.style.opacity === '1') {
+        link.style.opacity = '0';
     } else {
-        link.style.display = 'block';
+        link.style.opacity = '1';
         link.style.width = '100%'
+        link.style.display = 'flex'
+        link.style.flexDirection = 'column'
         link.style.backgroundColor = ' black'
     }
 }); i

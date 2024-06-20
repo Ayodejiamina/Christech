@@ -36,6 +36,7 @@ nav {
 .link {
   display: flex;
   list-style-type: none;
+  transition: all 0.9s ease;
 }
 .link li {
   margin-right: 3.5rem;
@@ -561,7 +562,6 @@ form button {
 }
 .goblin {
   text-align: center;
-  /* margin: 20px 0px; */
 }
 .goblin img {
   width: 500px;
@@ -655,9 +655,11 @@ form button {
 
   .tech1 div button {
     width: 150px;
+    font-size: 15px;
   }
   .tech2 div button {
     width: 150px;
+    font-size: 15px;
   }
   .tech1 {
     margin: 0px 3px;
@@ -852,14 +854,15 @@ form button {
   }
 
   .link {
-    display: none;
-    /* display: flex; */
-    /* flex-direction: column; */
+    opacity: 0;
     list-style-type: none;
     margin-top: 10px;
   }
   .link li {
     text-align: center;
-    margin-top: 2rem;
+    margin: 2rem 0;
+  }
+  body {
+    overflow-x: hidden;
   }
 }
